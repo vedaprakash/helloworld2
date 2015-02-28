@@ -1,0 +1,94 @@
+d Request<
+<Unauthorized<
+<Payment Required<
+<Forbidden<
+<Not Found<
+<Method Not Allowed<
+<Not Acceptable<
+<Proxy Authentication Required<
+<Request Timeout<
+<Gone<
+<Request Entity Too Large<
+<Request-URI Too Long<
+<Unsupported Media Type<
+<Unsupported URI Scheme<
+<Bad Extension<
+<Extension Required<
+<Interval Too Brief<
+<Contact is busy<
+<Call/Transaction Does Not Exist<
+<Loop Detected<
+<Too Many Hops<
+<Invalid Number<
+<Ambiguous<
+<Contact is busy<
+<Request Terminated<
+<Not Acceptable Here<
+<Request Pending<
+<Undecipherable<
+<Service Unavailable<
+<No Answer<
+
+vedaprakash@veda-PC:~/Desktop$ tr '<' '>' <error.txt |tee error.txt
+>Bad Request>
+>Unauthorized>
+>Payment Required>
+>Forbidden>
+>Not Found>
+>Method Not Allowed>
+>Not Acceptable>
+>Proxy Authentication Required>
+>Request Timeout>
+>Gone>
+>Request Entity Too Large>
+>Request-URI Too Long>
+>Unsupported Media Type>
+>Unsupported URI Scheme>
+>Bad Extension>
+>Extension Required>
+>Interval Too Brief>
+>Contact is busy>
+>Call/Transaction Does Not Exist>
+>Loop Detected>
+>Too Many Hops>
+>Invalid Number>
+>Ambiguous>
+>Contact is busy>
+>Request Terminated>
+>Not Acceptable Here>
+>Request Pending>
+>Undecipherable>
+>Service Unavailable>
+>No Answer>
+vedaprakash@veda-PC:~/Desktop$ tr '>' '>' >error.txt
+>Bad Request>
+>Unauthorized>
+>Payment Required>
+>Forbidden>
+>Not Found>
+>Method Not Allowed>
+>Not Acceptable>
+>Proxy Authentication Required>
+>Request Timeout>
+>Gone>
+>Request Entity Too Large>
+>Request-URI Too Long>
+>Unsupported Media Type>
+>Unsupported URI Scheme>
+>Bad Extension>
+>Extension Required>
+>Interval Too Brief>
+>Contact is busy>
+>Call/Transaction Does Not Exist>
+>Loop Detected>
+>Too Many Hops>
+>Invalid Number>
+>Ambiguous>
+>Contact is busy>
+>Request Terminated>
+>Not Acceptable Here>
+>Request Pending>
+>Undecipherable>
+>Service Unavailable>
+>No Answer>
+
